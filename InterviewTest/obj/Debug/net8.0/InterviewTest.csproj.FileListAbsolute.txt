@@ -1,0 +1,14 @@
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\bin\Debug\net8.0\InterviewTest.exe
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\bin\Debug\net8.0\InterviewTest.deps.json
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\bin\Debug\net8.0\InterviewTest.runtimeconfig.json
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\bin\Debug\net8.0\InterviewTest.dll
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\bin\Debug\net8.0\InterviewTest.pdb
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.AssemblyInfoInputs.cache
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.AssemblyInfo.cs
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.csproj.CoreCompileInputs.cache
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.dll
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\refint\InterviewTest.dll
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.pdb
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\InterviewTest.genruntimeconfig.cache
+C:\Users\kgs20\Desktop\Meyer Distributing Exam - Junior2\InterviewTest\obj\Debug\net8.0\ref\InterviewTest.dll
