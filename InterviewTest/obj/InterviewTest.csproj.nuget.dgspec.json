@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior2\\InterviewTest\\InterviewTest.csproj": {}
+    "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior2\\InterviewTest\\InterviewTest.csproj": {
+    "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior2\\InterviewTest\\InterviewTest.csproj",
+        "projectUniqueName": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
         "projectName": "InterviewTest",
-        "projectPath": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior2\\InterviewTest\\InterviewTest.csproj",
+        "projectPath": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
         "packagesPath": "C:\\Users\\kgs20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior2\\InterviewTest\\obj\\",
+        "outputPath": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kgs20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

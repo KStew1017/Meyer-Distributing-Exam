@@ -9,7 +9,14 @@ namespace InterviewTest
 {
     public class Program
     {
-        // The previous implementation of the OrderRepository and ReturnRepository were static and readonly, which made it impossible to create new instances of them. This was the cause of the bug where Ruxer Ford Lincoln, Inc.'s totals were incorrect. The same repository instances were being used for both of the customers, leading to shared state. I removed the previous fields that were here and created new instances of the repositories in the GetTruckAccessoriesCustomer and GetCarDealershipCustomer methods, which fixed the issue.
+        /* 
+        The previous implementation of the OrderRepository and ReturnRepository were static and readonly,
+        which made it impossible to create new instances of them. This was the cause of the bug where Ruxer
+        Ford Lincoln, Inc.'s totals were incorrect. The same repository instances were being used for both
+        of the customers, leading to shared state. I removed the previous fields that were here and created
+        new instances of the repositories in the GetTruckAccessoriesCustomer and GetCarDealershipCustomer
+        methods, which fixed the issue.
+        */
 
         static void Main(string[] args)
         {
@@ -78,7 +85,7 @@ namespace InterviewTest
             ConsoleWriteLineResults(customer);
         }
 
-        private static ICustomer GetTruckAccessoriesCustomer()
+        public static ICustomer GetTruckAccessoriesCustomer()
         {
             var orderRepo = new OrderRepository();
             var returnRepo = new ReturnRepository();
