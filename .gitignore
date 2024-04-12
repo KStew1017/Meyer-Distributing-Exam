@@ -4,3 +4,5 @@ obj/
 
 # NuGet packages
 packages/
+
+.vscode/
