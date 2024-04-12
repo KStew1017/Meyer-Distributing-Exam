@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {}
+    "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {
+    "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
+        "projectUniqueName": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
         "projectName": "InterviewTest",
-        "projectPath": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
+        "projectPath": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\InterviewTest.csproj",
         "packagesPath": "C:\\Users\\kgs20\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\obj\\",
+        "outputPath": "C:\\Users\\kgs20\\Desktop\\Meyer Distributing Exam - Junior\\InterviewTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kgs20\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
