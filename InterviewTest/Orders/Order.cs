@@ -7,6 +7,11 @@ namespace InterviewTest.Orders
 {
     public class Order : IOrder
     {
+        public string OrderNumber { get; }
+        public ICustomer Customer { get; }
+        public List<OrderedProduct> Products { get; }
+        public DateTime OrderDate { get; }
+
         public Order(string orderNumber, ICustomer customer)
         {
             OrderNumber = orderNumber;
@@ -14,11 +19,6 @@ namespace InterviewTest.Orders
             Products = new List<OrderedProduct>();
             OrderDate = DateTime.Now;
         }
-
-        public string OrderNumber { get; }
-        public ICustomer Customer { get; }
-        public List<OrderedProduct> Products { get; }
-        public DateTime OrderDate { get; }
 
         public void AddProduct(IProduct product)
         {
